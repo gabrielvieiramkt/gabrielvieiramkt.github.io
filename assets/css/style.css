@@ -1,0 +1,43 @@
+body .bg-primary {
+  background-color: #ef872e !important;
+}
+body #mainNav .navbar-nav li.nav-item a.nav-link.active {
+  color: #ef872e;
+}
+body #mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #ef872e !important;
+  background-color: rgba(41, 41, 192, 0.897) !important;
+}
+body button.bg-primary:hover {
+  background-color: #ef872e !important;
+}
+body .bg-secondary {
+  background-color: #154d86 !important;
+}
+body .portfolio .portfolio-item .portfolio-item-caption {
+  background-color: rgba(239, 135, 46, 0.6) !important;
+}
+body .footer {
+  background-color: #154d86 !important;
+}
+body .copyright {
+  background-color: #032e58 !important;
+}
+body .portfolio-modal .close {
+  color: #ef872e;
+}
+body #free {
+  text-decoration: none !important;
+  color: #154d86;
+  font-weight: 400;
+}
+body #free :hover {
+  transition: 0.3s;
+  color: red;
+}
+@media (min-width: 992px) {
+  body #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #fff;
+    background: #ef872e;
+  }
+}
