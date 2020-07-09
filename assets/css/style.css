@@ -35,6 +35,9 @@ body #free :hover {
   transition: 0.3s;
   color: red;
 }
+body .page-section .formulario-contato {
+  margin-left: 35px;
+}
 @media (min-width: 992px) {
   body #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
