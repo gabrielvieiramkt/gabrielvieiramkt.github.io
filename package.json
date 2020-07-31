@@ -1,11 +1,8 @@
-n{
-    "title": "sitesversateisfree",
-    "name": "Gabriel Vieira",
-    "version": "1.0",
-    "scripts": {
-        "start": "node_modules/.bin/gulp watch"
-    },
-    "description": "sitesversateisfree",
+{
+    "title": "Gabriel Vieira",
+    "name": "gabriel",
+    "version": "4.2.2",
+    "description": "A simple business HTML landing page built with Bootstrap",
     "keywords": [
         "css",
         "sass",
@@ -14,38 +11,14 @@ n{
         "theme",
         "template"
     ],
-    "homepage": "https://sitesversateisfree.github.io/index.html",
-    "bugs": {
-        "url": "https://sitesversateisfree.github.io/index.html",
-        "email": "gabriel.webdesenvolvimento@gmail.com"
-    },
-    "license": "MIT",
-    "author": "Gabriel Vieira",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
+    "homepage": "https://gabrielvieiramkt.github.io",
+  
     "repository": {
         "type": "git",
-        "url": "https://github.com/sitesversateisfree/sitesversateisfree.github.io"
+        "url": "https://github.com/gabrielvieiramkt/gabrielvieiramkt.github.io"
     },
     "dependencies": {
-        "@fortawesome/fontawesome-free": "5.10.2",
-        "bootstrap": "4.3.1",
-        "jquery": "3.4.1",
-        "jquery.easing": "^1.4.1",
-        "magnific-popup": "^1.1.0"
-    },
-    "devDependencies": {
-        "browser-sync": "2.26.7",
-        "del": "5.1.0",
-        "gulp": "4.0.2",
-        "gulp-autoprefixer": "7.0.0",
-        "gulp-clean-css": "4.2.0",
-        "gulp-header": "2.0.9",
-        "gulp-plumber": "^1.2.1",
-        "gulp-rename": "1.4.0",
-        "gulp-sass": "4.0.2",
-        "gulp-uglify": "3.0.2",
-        "merge-stream": "2.0.0"
+        "bootstrap": "4.5.0",
+        "jquery": "3.5.1"
     }
 }
