@@ -1,39 +1,52 @@
 body .bg-primary {
-  background-color: #ef872e !important;
+  background-color: #0099cc !important;
 }
 body #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #ef872e;
+  color: #0099cc;
 }
 body #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #ef872e !important;
-  background-color: rgba(41, 41, 192, 0.897) !important;
+  color: #032e58 !important;
+  background-color: white!important;
 }
 body button.bg-primary:hover {
-  background-color: #ef872e !important;
+  background-color: #0099cc !important;
 }
 body .bg-secondary {
-  background-color: #154d86 !important;
+  background-color: #006699 !important;
 }
 body .portfolio .portfolio-item .portfolio-item-caption {
   background-color: rgba(239, 135, 46, 0.6) !important;
 }
 body .footer {
-  background-color: #154d86 !important;
+  background-color: #006699 !important;
 }
 body .copyright {
   background-color: #032e58 !important;
 }
 body .portfolio-modal .close {
-  color: #ef872e;
+  color: #0099cc;
 }
 body #free {
   text-decoration: none !important;
-  color: #154d86;
+  color: #006699;
   font-weight: 400;
 }
 body #free :hover {
   transition: 0.3s;
   color: red;
+}
+body .link-contato {
+  text-decoration: none;
+  color: white;
+}
+body .link-contato:hover {
+  transition: 0.6s;
+  color: yellow;
+  font-weight: 600;
+}
+body #logo {
+  width: 16%;
+  height: auto;
 }
 body .page-section .formulario-contato {
   margin-left: 35px;
@@ -41,6 +54,11 @@ body .page-section .formulario-contato {
 @media (min-width: 992px) {
   body #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #ef872e;
+    background: #0099cc;
+  }
+}
+@media (max-width: 432px) {
+  body #mainNav .navbar-brand {
+    width: 185px !important;
   }
 }

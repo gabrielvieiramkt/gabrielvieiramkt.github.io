@@ -1,5 +1,5 @@
-@fundo: #ef872e;
-@nav: #154d86;
+@fundo: #0099cc ;
+@nav: #006699;
 @foot: #032e58;
 body{
     .bg-primary{
@@ -13,8 +13,9 @@ body{
     }
     
     #mainNav .navbar-nav li.nav-item a.nav-link:hover{
-        color: @fundo !important;
-        background-color: rgba(41, 41, 192, 0.897)!important;
+        color: @foot !important;
+        background-color: white!important;
+        
     }
     button.bg-primary:hover {
         background-color: @fundo!important;
@@ -44,7 +45,19 @@ body{
             color: red;
         }
     }
-   
+    .link-contato{
+        text-decoration: none;
+        color: white;
+    }
+    .link-contato:hover{
+        transition: 0.6s;
+        color: yellow;
+        font-weight: 600;
+    }
+    #logo{
+        width: 16%;
+        height: auto;
+    }
     .page-section .formulario-contato{
         margin-left: 35px;
     } 
@@ -52,6 +65,11 @@ body{
         #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
             color: #fff;
             background: @fundo;
+        }
+    }
+    @media (max-width: 432px){
+        #mainNav .navbar-brand{
+            width: 185px !important;
         }
     }
 
